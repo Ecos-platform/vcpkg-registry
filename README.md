@@ -1,0 +1,2 @@
+# Ecos-platform vcpkg registry
+
