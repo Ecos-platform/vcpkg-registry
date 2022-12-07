@@ -5,8 +5,8 @@ vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO modelon-community/fmi-library
-    REF "${version}"
-    SHA512 0
+    REF "${VERSION}"
+    SHA512 65c2dc11116737e4e2ee91a4ec58d2cf24003774fd6d9b8b1d6521f046be9e8f8a963ebedb50a161ad264927062f41ce757c84563cfe628d47614910e8730349
     HEAD_REF master
 	PATCHES
         0001-remove-install-prefix.patch
@@ -58,7 +58,7 @@ vcpkg_cmake_configure(
 
 vcpkg_cmake_install()
 vcpkg_copy_pdbs()
-vcpkg_cmake_config_fixup(PACKAGE_NAME unofficial-fmilib)
+vcpkg_cmake_config_fixup(PACKAGE_NAME unofficial-fmilibrary)
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE.md")
