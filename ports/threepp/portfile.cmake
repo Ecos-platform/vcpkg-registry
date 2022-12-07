@@ -8,7 +8,6 @@ vcpkg_from_github(
 
 vcpkg_cmake_configure(
     SOURCE_PATH "${SOURCE_PATH}"
-	PREFER_NINJA
     OPTIONS
         -DTHREEPP_BUILD_EXAMPLES=OFF
 )
@@ -17,9 +16,6 @@ vcpkg_cmake_install()
 vcpkg_cmake_config_fixup()
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
-file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/share")
-
-vcpkg_copy_pdbs()
 
 file(
 INSTALL "${SOURCE_PATH}/LICENSE" 
