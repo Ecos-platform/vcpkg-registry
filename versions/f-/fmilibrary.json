@@ -2,7 +2,7 @@
 	"versions": [
 		{
 			"version": "2.4.1",
-			"path": "$/ports/fmilibrary"
+			"git-tree": "247953beb7d03e5e4999508e388d1adc19698595"
 		}
 	]
 }
