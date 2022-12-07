@@ -1,3 +1,5 @@
 {
-"default": {}
+	"default": {
+		"fmilibrary": { "baseline": "2.4.1", "port-version": 0 }
+	}
 }
