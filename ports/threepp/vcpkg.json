@@ -1,6 +1,6 @@
 {
   "name": "threepp",
-  "version-date": "2022-12-07",
+  "version-date": "2023-04-01",
   "description": "C++17 port of three.js",
   "homepage": "https://github.com/markaren/threepp",
   "dependencies": [
