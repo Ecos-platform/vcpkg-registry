@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
 	REPO markaren/threepp
-	REF 63524ffdfe06a103ed3d10e5d1c4f36759f57869
-	SHA512 2d5722b62d52a845eed9c0cb6ebbe6c200677138d1448be8ae653e48eb9c1cba44041603f365be499c5abec6a94dbad2d83edf9fd1f113fcb14edb3f0f7ebda0
+	REF 4b10e05395589454e7045707d73ed3187892ec46
+	SHA512 2c176d180d23633743f44b1331fb90c7bec3feb8cae86e591d155837ba21280f79563c380efe06fb8fdbd9b4bef225f7b67c957c1c828697d778220e72c77f0c
     HEAD_REF vcpkg_test
 )
 
@@ -14,6 +14,7 @@ vcpkg_cmake_configure(
 )
 
 vcpkg_cmake_install()
+vcpkg_fixup_cmake_targets()
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/share")
