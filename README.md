@@ -2,7 +2,11 @@
 
 ### git-tree
 
-`git rev-parse HEAD:ports/<port>`
+`git rev-parse HEAD:ports/threepp`
+
+### Test package
+
+`vcpkg install threepp --overlay-ports=ports/threepp`
 
 ### Docs
 
