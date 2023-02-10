@@ -3,7 +3,7 @@ vcpkg_from_github(
 	REPO markaren/threepp
 	REF 71778450efa3590e03b52522b14a6c347dada72d
 	SHA512 c0018be05b94dd6484fc7eacb027c4da2b0281e3b828ddbc204b097853908bbe2e7d6ab648ee559ef3fe638486ffccbb483e504218c32e208eec5ba155f2e008
-    HEAD_REF vcpkg_test
+    HEAD_REF master
 )
 
 vcpkg_from_github(
