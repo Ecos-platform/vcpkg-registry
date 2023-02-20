@@ -1,7 +1,7 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
 	REPO markaren/threepp
-	REF c93848b33003ead25f5eaea3cd77fbe90f47fedc
+	REF 0ce387ff5b2f92fd50944b73b172b8ca48f33c95
 	SHA512 da6f1b22e0ac600c79c5aa0e92ac0c8c8487e5a04a3d880ca86e1f95c66ae7961a81672bebecc6aa45977b81ebf878747247557114c9f42a8f6b46259ce9d2b0
     HEAD_REF master
 )
