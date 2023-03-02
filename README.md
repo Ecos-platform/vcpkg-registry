@@ -6,7 +6,7 @@
 
 ### Test package
 
-`vcpkg install threepp:x64-windows-static --overlay-ports=ports/threepp`
+`vcpkg install threepp --overlay-ports=ports/threepp`
 
 ### Docs
 
