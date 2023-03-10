@@ -1,9 +1,9 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
 	REPO markaren/threepp
-	REF fa8bf05d07411a1ee045e87073d289851aa674f7
-	SHA512 2db7eca311fd93578476b592e6c5f15f3f1762858368f2efe9ad20c18428229508160b197e9ead4969738dc8e2c2cead23b4adff8f619566e20b9fc8bfa87db2
-    HEAD_REF master
+	REF 6bc91de6720661db8ff900ae1ce1e6f0f7f2b718
+	SHA512 3ffb8c69253626f648d0b384fe694f256243a979746c29be2d6fda24951ea1d5a49127c29032aa3762e7866f800cbfdfc369abcfab92545994b04a0a27ecc790
+    HEAD_REF dev
 )
 
 vcpkg_from_github(
@@ -11,7 +11,7 @@ vcpkg_from_github(
     REPO vallentin/glText
     REF 8200fa70e32acec0a3cd777d404f41ee0c203ca4
     SHA512 1c17516f4a7d26448a61d96d0b9e6d005fff291e66c46947530be4838d5219112efab8d8c6b01e5e7d8ba88c7a0dacda7cafc324d4e78f5ae0bdf33edf21b29d
-    HEAD_REF dev
+    HEAD_REF master
 )
 
 vcpkg_cmake_configure(
