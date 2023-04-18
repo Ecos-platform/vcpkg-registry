@@ -1,0 +1,18 @@
+vcpkg_from_github(
+    OUT_SOURCE_PATH SOURCE_PATH
+	REPO robbr48/fmi4c
+	REF 14b661c3803a395e57408872f60e1c6287237d97
+	SHA512 ad9b1df63f5b543a02fa98482595c91e7763c557fb477cb57e563588d28ba0e21edef9e07b7a1e05e1c6b81ac803982be5ec6481605412a0457474c9400be1a9
+    HEAD_REF dev
+)
+
+vcpkg_cmake_install()
+vcpkg_fixup_cmake_targets()
+
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/share")
+
+file(
+	INSTALL "${SOURCE_PATH}/LICENSE" 
+	DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}" 
+	RENAME copyright)
