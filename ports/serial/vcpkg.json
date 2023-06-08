@@ -1,6 +1,6 @@
 {
   "name": "serial",
-  "version-date": "2023-05-23",
+  "version-date": "2023-06-09",
   "description": "A cross-platform serial library",
   "homepage": "https://github.com/markaren/serial",
   "dependencies": [
