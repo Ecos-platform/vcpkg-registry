@@ -1,0 +1,17 @@
+{
+  "name": "fmilibcpp",
+  "version-date": "2023-06-11",
+  "description": "C++17 wrapper for fmilib",
+  "homepage": "https://github.com/Ecos-platform/fmilib-cpp",
+  "dependencies": [
+    "fmilib",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
