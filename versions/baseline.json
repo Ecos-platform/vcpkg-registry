@@ -4,6 +4,6 @@
 		"threepp": { "baseline": "2023-05-16", "port-version": 0 },
 		"serial": { "baseline": "2023-06-09", "port-version": 0},
 		"simple-ssp": { "baseline": "2023-06-09", "port-version": 0},
-		"fmilibcpp": { "baseline": "2023-06-11", "port-version": 0}
+		"fmilibcpp": { "baseline": "2023-06-13", "port-version": 0}
 	}
 }
