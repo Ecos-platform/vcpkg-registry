@@ -1,0 +1,19 @@
+{
+  "name": "simple-ssp",
+  "version-date": "2023-06-09",
+  "description": "A simple SSP parsing library for C++",
+  "homepage": "https://github.com/Ecos-platform/simple-ssp-parser",
+  "dependencies": [
+	"pugixml",
+    "libzip",
+    "spdlog",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
