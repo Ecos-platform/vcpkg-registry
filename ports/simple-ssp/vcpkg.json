@@ -1,6 +1,6 @@
 {
   "name": "simple-ssp",
-  "version-date": "2023-06-09",
+  "version-date": "2023-06-13",
   "description": "A simple SSP parsing library for C++",
   "homepage": "https://github.com/Ecos-platform/simple-ssp-parser",
   "dependencies": [
