@@ -1,6 +1,6 @@
 {
   "name": "fmilibcpp",
-  "version-date": "2023-06-13",
+  "version-date": "2023-06-16",
   "description": "C++17 wrapper for fmilib",
   "homepage": "https://github.com/Ecos-platform/fmilib-cpp",
   "dependencies": [
