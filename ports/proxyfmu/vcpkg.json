@@ -1,0 +1,30 @@
+{
+  "name": "proxyfmu",
+  "version-date": "2023-06-23",
+  "description": "A tool-independent solution for running FMUs compatible with FMI for Co-simulation version 1.x & 2.x in distributed fashion.",
+  "homepage": "https://github.com/Ecos-platform/proxy-fmu",
+  "dependencies": [
+	"fmilibcpp",
+    "simple-ssp",
+    "cli11",
+    "thrift",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ],
+  "vcpkg-configuration": {
+	  "registries": [
+		{
+		  "kind": "git",
+		  "baseline": "9e73cf3e74828721df0fb035d5745c9dd898e46f",
+		  "repository": "https://github.com/Ecos-platform/vcpkg-registry",
+		  "packages": [ "simple-ssp", "fmilibcpp" ]
+		}
+	  ]
+  }
+}
