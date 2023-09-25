@@ -1,7 +1,7 @@
 {
 	"default": {
 		"fmi4c": { "baseline": "2023-03-07", "port-version": 0},
-		"threepp": { "baseline": "2023-05-16", "port-version": 0 },
+		"threepp": { "baseline": "2023-09-25", "port-version": 0 },
 		"serial": { "baseline": "2023-06-09", "port-version": 0},
 		"simple-ssp": { "baseline": "2023-06-16", "port-version": 0},
 		"fmilibcpp": { "baseline": "2023-06-16", "port-version": 0}
