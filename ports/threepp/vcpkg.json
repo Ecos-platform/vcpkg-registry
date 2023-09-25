@@ -1,6 +1,6 @@
 {
   "name": "threepp",
-  "version-date": "2023-05-16",
+  "version-date": "2023-09-25",
   "description": "C++17 port of three.js",
   "homepage": "https://github.com/markaren/threepp",
   "dependencies": [
@@ -15,19 +15,5 @@
       "name": "vcpkg-cmake-config",
       "host": true
     }
-  ],
-  "features": {
-		"curl": {
-		  "description": "Enable URLFetcher in library.",
-		  "dependencies": [
-			"curl"
-		  ]
-		},
-		"json": {
-		  "description": "Enable JSON support in library. Required to use Fonts.",
-		  "dependencies":[
-			"nlohmann-json"
-		  ]
-		}
-	}
+  ]
 }
