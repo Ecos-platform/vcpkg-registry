@@ -1,0 +1,4 @@
+The package threepp is compatible with built-in CMake targets:
+
+    find_package(threepp CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE threepp::threepp)
