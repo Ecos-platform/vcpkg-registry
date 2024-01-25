@@ -14,7 +14,7 @@
       "platform": "!wasm32"
     },
     "stb",
-    "nlohmann-json"
+    "nlohmann-json",
     {
       "name": "vcpkg-cmake",
       "host": true
