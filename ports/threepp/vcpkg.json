@@ -1,13 +1,9 @@
 {
   "name": "threepp",
-  "version-date": "2024-01-30",
+  "version-date": "2024-02-11",
   "description": "C++17 port of three.js",
   "homepage": "https://github.com/markaren/threepp",
   "dependencies": [
-    {
-      "name": "glfw3",
-      "platform": "!wasm32"
-    },
     {
       "name": "vcpkg-cmake",
       "host": true
